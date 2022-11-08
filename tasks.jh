@@ -1,0 +1,16 @@
+/**
+ * Tasks (ems_tasks) entity.\n@author Ibrahim Mohamed.
+ */
+entity Tasks (ems_tasks) {
+  nameEn String required,
+  nameAr String required,
+  status Integer,
+  code String
+}
+
+paginate all with pagination
+dto * with mapstruct
+service all with serviceImpl
+filter all
+
+         
